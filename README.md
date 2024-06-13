@@ -1,144 +1,42 @@
-# Ruby On Rails Capstone Project - Group our Transactions
+# Project Management System
 
-> Capstone project developed as a final project for the ruby on rail module on Microverse, a mobile application that groups the hours logged by a group of freelance programmers working on several projects
+This is a comprehensive project management system designed for a group of freelance programmers working on several projects. It's built with Ruby v2.7.2, Ruby on Rails v6.1.3.2, Bootstrap 5 CSS, and Simple Forms Gem.
 
-# HOW TO USE:
+## Detailed Description
+This project management system is a robust web application that allows users to manage and organize their projects effectively. It provides a platform for users to create, edit, and delete projects and groups, enhancing collaboration and productivity.
 
-> Video presentation: https://www.loom.com/share/dc6d5f0c291d43aa9bbb45eada641496
+Users can sign up and log in to the system, with the option to attach an avatar during the sign-up process. Once logged in, users can create new projects either associated with a group or as standalone projects. They can also create new groups, providing a way to categorize and manage related projects.
 
-- Log in or Sign up, for the Sign up process you will need to attach a picture file for your avatar (Make it a good one!)
+Projects associated with a group are displayed in the 'All Projects' section, while standalone projects are listed under 'External Projects'. Users can add new projects to a group, enhancing the flexibility of project organization.
 
-# YOU MUST BE LOGGED IN TO DO THE NEXT STEPS
+One of the key features of this system is the ability to associate new projects with an existing group right from the project creation page. Projects associated with a group will display the first group's image, while standalone projects will have a placeholder image.
 
-- You can create new projects for your user in the Projects or External Projects pages, you can also access the new project link from the menu everywhere in the app. Projects can be created with a group associated or without one. 
-- You can create new groups in the All Groups page, you can also access the group link from the menu everywhere in the app
-- Projects that are associated to a group will appear in 'All Projects', projects without a group will be in 'External Projects'
-- You can add new projects to a group by accessing that group in 'All Groups' and then clicking 'Add Project'
+The system also provides a feature to view all projects from all users associated with a group, promoting transparency and collaboration among users. An added feature includes a list of all users, where one can view all the projects created by each user, further enhancing transparency.
 
-#FEATURES:
+The system also allows users to edit and delete projects and groups, providing full control over their data. The application is user-friendly and intuitive, with a clean and modern interface, as demonstrated by the preview images.
 
-- New projects can be associated with an existing group from the project creation page
-- Projects with a group associated will have the first group (that has the association) image
-- Projects without a group will have a placeholder image
+This project management system is a powerful tool for managing projects, promoting collaboration, and enhancing productivity.
+
+## How to Use
+
+1. Log in or Sign up. For the Sign up process, you will need to attach a picture file for your avatar.
+
+**Note: You must be logged in to perform the next steps.**
+
+2. Create new projects for your user in the Projects or External Projects pages. You can also access the new project link from the menu everywhere in the app. Projects can be created with a group associated or without one.
+3. Create new groups in the All Groups page. You can also access the group link from the menu everywhere in the app.
+4. Projects that are associated with a group will appear in 'All Projects', projects without a group will be in 'External Projects'.
+5. Add new projects to a group by accessing that group in 'All Groups' and then clicking 'Add Project'.
+
+## Features
+
+- New projects can be associated with an existing group from the project creation page.
+- Projects with a group associated will have the first group (that has the association) image.
+- Projects without a group will have a placeholder image.
 - You can see all projects from all users associated in the group info.
 
-#ADDED FEATURES:
+## Added Features
 
-- List of all users in User meny, you can see all the projects created by each user by clicking on them
-- You can edit and delete Projects
-- Ypu can edit and delete Groups
-
-# PREVIEW:
-
-![](https://github.com/GabrielJSuarez/ror_capstone/blob/development/app/assets/images/1.png)
-
-![](https://github.com/GabrielJSuarez/ror_capstone/blob/development/app/assets/images/2.png)
-
-![](https://github.com/GabrielJSuarez/ror_capstone/blob/development/app/assets/images/3.png)
-
-![](https://github.com/GabrielJSuarez/ror_capstone/blob/development/app/assets/images/4.png)
-
-![](https://github.com/GabrielJSuarez/ror_capstone/blob/development/app/assets/images/5.png)
-
-![](https://github.com/GabrielJSuarez/ror_capstone/blob/development/app/assets/images/6.png)
-
-![](https://github.com/GabrielJSuarez/ror_capstone/blob/development/app/assets/images/7.png)
-
-## Built With
-
-- Ruby v2.7.2
-- Ruby on Rails v6.1.3.2
-- Bootstrap 5 css 
-- Simple Forms Gem
-- Better Errors Gem
-- Guard Gem
-- Rspec Rails
-- Capybara
-- Devise
-- Kaminari
-- Bullet
-- Cloudinary
-- image_processing
-
-# Live Demo
-
-# https://desolate-wave-78024.herokuapp.com/
-
-### Prerequisites
-
-- Ruby v2.7.2
-- Ruby on Rails v6.1.3.2
-- Postgres: >=9.5
-
-## Getting Started
-
-### Setup
-
-To get a local copy up and running follow these simple example steps.
-
-Clone the repository to your local machine
-
-$ `git clone https://github.com/GabrielJSuarez/ror_capstone`
-
-Go to your directory
-
-$ `cd ror_capstone`
-
-Run in terminal [You must have Ruby installed on your system.]
-
-$ `bundle install`
-
-$ `yarn install`
-
-the command $ `bundle install` is important to install required gem for the app to start. After you finish type:
-
-- To create the local database tables in Postgres you will need to have it configured locally and then run:
-
-$ `rails db:create`
-
-- To run migration files:
-
-$ `rails db:migrate`
-
-This will do the proper migrations for the database, after that you can run the server:
-
-$ `rails server`
-
-Open your browser to localhost
-
-http://localhost:3000/
-
-- Run tests:
-
-$ `bundle exec rspec`
-
-$ `Rubocop lint`
-
-$ `rubocop .`
-
-## Authors
-
-👤 **Gabriel Suárez**
-
-- Github: @ginnandjuice(https://github.com/ginnandjuice)
-- Twitter: [@fatbaxxter](https://twitter.com/fatbaxxter)
-- Linkedin: [Gabriel Suárez](https://www.linkedin.com/in/gabriel-ginn-suarez/)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-Design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
-
-## 📝 License
-
-This project is MIT licensed.
-
+- List of all users in User menu. You can see all the projects created by each user by clicking on them.
+- You can edit and delete Projects.
+- You can edit and delete Groups.
